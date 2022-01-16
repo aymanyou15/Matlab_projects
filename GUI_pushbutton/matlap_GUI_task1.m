@@ -112,7 +112,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
         imshow(myImage);
         set(handles.text3, 'string', "SAD");
     else
-        set(handles.text3, 'string', "enter number u idiot");
+        set(handles.text3, 'string', "enter number");
     end
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
